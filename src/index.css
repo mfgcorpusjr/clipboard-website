@@ -7,6 +7,38 @@ body {
   background-size: contain;
 }
 
+h1 {
+  @apply mb-8 text-5xl text-gray-700 font-bold;
+}
+
+h2 {
+  @apply mb-8 text-4xl text-gray-700 font-bold;
+}
+
+h3 {
+  @apply mb-8 max-w-3xl mx-auto text-2xl text-gray-400 leading-10;
+}
+
+h4 {
+  @apply max-w-2xl mx-auto text-xl text-gray-400 leading-10;
+}
+
+.section {
+  @apply max-w-6xl mx-auto p-8 my-20 text-center;
+}
+
+.btn {
+  @apply px-12 py-4 rounded-full shadow-md text-white font-semibold cursor-pointer transition-colors duration-300;
+}
+
+.btn-primary {
+  @apply bg-teal-500 hover:bg-teal-600;
+}
+
+.btn-secondary {
+  @apply bg-indigo-500 hover:bg-indigo-600;
+}
+
 @media (max-width: 639px) {
   body {
     background-image: url("./images/bg-header-mobile.png");
