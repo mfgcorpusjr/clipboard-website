@@ -8,19 +8,19 @@ body {
 }
 
 h1 {
-  @apply mb-8 text-5xl text-gray-700 font-bold;
+  @apply text-5xl text-gray-700 font-bold;
 }
 
 h2 {
-  @apply mb-8 text-4xl text-gray-700 font-bold;
+  @apply text-4xl text-gray-700 font-bold;
 }
 
 h3 {
-  @apply mb-8 max-w-3xl mx-auto text-2xl text-gray-400 leading-10;
+  @apply text-2xl text-gray-400;
 }
 
 h4 {
-  @apply max-w-2xl mx-auto text-xl text-gray-400;
+  @apply text-xl text-gray-400;
 }
 
 h5 {
@@ -28,7 +28,7 @@ h5 {
 }
 
 .section {
-  @apply max-w-6xl mx-auto p-8 my-20 text-center;
+  @apply max-w-6xl mx-auto p-8 text-center;
 }
 
 .btn {
