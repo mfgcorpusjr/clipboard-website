@@ -2,6 +2,7 @@ import Hero from "@/components/Hero";
 import Snippets from "@/components/Snippets";
 import Features from "@/components/Features";
 import Access from "@/components/Access";
+import Supercharge from "@/components/Supercharge";
 
 export default function App() {
   return (
@@ -13,6 +14,8 @@ export default function App() {
       <Features />
 
       <Access />
+
+      <Supercharge />
     </main>
   );
 }
