@@ -4,6 +4,7 @@ import Features from "@/components/Features";
 import Access from "@/components/Access";
 import Supercharge from "@/components/Supercharge";
 import References from "@/components/References";
+import CallToAction from "@/components/CallToAction";
 
 export default function App() {
   return (
@@ -19,6 +20,8 @@ export default function App() {
       <Supercharge />
 
       <References />
+
+      <CallToAction />
     </main>
   );
 }
