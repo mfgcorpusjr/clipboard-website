@@ -5,6 +5,7 @@ import Access from "@/components/Access";
 import Supercharge from "@/components/Supercharge";
 import References from "@/components/References";
 import CallToAction from "@/components/CallToAction";
+import Footer from "@/components/Footer";
 
 export default function App() {
   return (
@@ -22,6 +23,8 @@ export default function App() {
       <References />
 
       <CallToAction />
+
+      <Footer />
     </main>
   );
 }

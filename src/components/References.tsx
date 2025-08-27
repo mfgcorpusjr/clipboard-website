@@ -1,6 +1,6 @@
 export default function References() {
   return (
-    <section className="section my-40">
+    <section className="section my-20 md:my-32">
       <div className="flex flex-col md:flex-row justify-center items-center gap-16 flex-wrap">
         <img src="./images/logo-google.png" />
         <img src="./images/logo-ibm.png" />

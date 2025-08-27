@@ -43,6 +43,10 @@ h5 {
   @apply bg-indigo-500 hover:bg-indigo-600;
 }
 
+.anchor {
+  @apply block text-gray-400 transition-colors duration-300 hover:text-teal-600;
+}
+
 @media (max-width: 639px) {
   body {
     background-image: url("./images/bg-header-mobile.png");
