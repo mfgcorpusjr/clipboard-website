@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <div className="section">
+    <section className="section">
       <img src="./images/logo.svg" className="mx-auto mb-12" />
 
       <h1>A history of everything you copy</h1>
@@ -14,6 +14,6 @@ export default function Hero() {
         <button className="btn btn-primary">Download for iOS</button>
         <button className="btn btn-secondary">Download for Mac</button>
       </div>
-    </div>
+    </section>
   );
 }

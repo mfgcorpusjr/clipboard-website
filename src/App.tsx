@@ -1,5 +1,6 @@
 import Hero from "@/components/Hero";
 import Snippets from "@/components/Snippets";
+import Features from "@/components/Features";
 
 export default function App() {
   return (
@@ -7,6 +8,8 @@ export default function App() {
       <Hero />
 
       <Snippets />
+
+      <Features />
     </main>
   );
 }
