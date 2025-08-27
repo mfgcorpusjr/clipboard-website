@@ -3,6 +3,7 @@ import Snippets from "@/components/Snippets";
 import Features from "@/components/Features";
 import Access from "@/components/Access";
 import Supercharge from "@/components/Supercharge";
+import References from "@/components/References";
 
 export default function App() {
   return (
@@ -16,6 +17,8 @@ export default function App() {
       <Access />
 
       <Supercharge />
+
+      <References />
     </main>
   );
 }
